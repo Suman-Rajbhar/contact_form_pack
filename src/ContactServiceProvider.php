@@ -17,6 +17,7 @@ class ContactServiceProvider extends ServiceProvider
         );
         $this->publishes([
             __DIR__.'/config/contactconfig.php' => config_path('contactconfig.php'),
+            __DIR__.'/views' => resource_path('views/vendor/contact'),
         ]);
     }
 
