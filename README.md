@@ -21,4 +21,7 @@ MAIL_ENCRYPTION=TLS
 
 ##### Sender mail configuration
 -> Edit config/contactconfig.php<br/>
-    'send_to' => 'your_receiver_mail_id@gmail.com'
+    'send_to' => 'your_receiver_mail_id'<br>
+    'send_from' => 'your_sender_mail_id'<br>
+    'sender' => 'mail_sender_name'
+
