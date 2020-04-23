@@ -32,7 +32,7 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->from('no-reply@gingerbd.com', 'Ginger BD')
+        return $this->from(config('contactconfig.send_from'), config('contactconfig.sender'))
             ->subject('Contact Feedback')
             ->markdown('contact::contact.email')->with(['fullname'=> $this->fullname, 'message'=>$this->message]);
     }
