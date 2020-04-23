@@ -3,3 +3,6 @@
 
 ### Installations
 composer require sumanraj/contact_form
+
+### Configuration
+php artisan vendor:publish --provider="Sumanraj\Contact\ContactServiceProvider"
