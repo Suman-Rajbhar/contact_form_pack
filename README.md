@@ -1,3 +1,5 @@
+.. image:: https://img.shields.io/github/issues/Suman-Rajbhar/contact_form_pack?color=orange&style=plastic   :alt: GitHub issues   :target: https://github.com/Suman-Rajbhar/contact_form_pack/issues
+
 # Laravel suitable Contact Form
 ## This package is for manage a dynamic contact information storing into database and also sending email to admin.
 
