@@ -29,3 +29,5 @@ MAIL_ENCRYPTION=TLS
     'send_from' => 'your_sender_mail_id'<br>
     'sender' => 'mail_sender_name'
 
+### Route to check
+<your_site>/contact
